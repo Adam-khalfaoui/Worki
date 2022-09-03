@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>FRONTEND</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel=”stylesheet” href=”https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css” integrity=”sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB”
+        crossorigin=”anonymous”>
+  <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+  <!-- styles -->
+  <link rel="stylesheet" href="assets/css/styles.min.css">
+  <!-- simplebar styles -->
+  <link rel="stylesheet" href="assets/css/vendor/simplebar.css">
+  <!-- tiny-slider styles -->
+  <link rel="stylesheet" href="assets/css/vendor/tiny-slider.css">
+  <!-- favicon -->
+  <link rel="icon" href="img/favicon.ico">
+  <title>Vikinger | Newsfeed</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="mat-typography">
+<script src="assets/js/utils/app.js"></script>
+<!-- page loader -->
+<script src="assets/js/utils/page-loader.js"></script>
+<!-- simplebar -->
+<script src="assets/js/vendor/simplebar.min.js"></script>
+<!-- liquidify -->
+<script src="assets/js/utils/liquidify.js"></script>
+<!-- XM_Plugins -->
+<script src="assets/js/vendor/xm_plugins.min.js"></script>
+<!-- tiny-slider -->
+<script src="assets/js/vendor/tiny-slider.min.js"></script>
+<!-- chartJS -->
+<script src="assets/js/vendor/Chart.bundle.min.js"></script>
+<!-- global.hexagons -->
+<script src="assets/js/global/global.hexagons.js"></script>
+<!-- global.tooltips -->
+<script src="assets/js/global/global.tooltips.js"></script>
+<!-- global.popups -->
+<script src="assets/js/global/global.popups.js"></script>
+<!-- global.charts -->
+<script src="assets/js/global/global.popups.js"></script>
+<!-- header -->
+<script  type="module"src="assets/js/header/header.js"></script>
+<!-- sidebar -->
+<script type="module" src="assets/js/sidebar/sidebar.js"></script>
+<!-- content -->
+<script type="module" src="assets/js/content/content.js"></script>
+<!-- form.utils -->
+<script type="module" src="assets/js/form/form.utils.js"></script>
+<!-- SVG icons -->
+<script type="module" src="assets/js/utils/svg-loader.js"></script>
+<script>
+  var loadFile = function(event) {
+    var image = document.getElementById('output');
+    image.src = URL.createObjectURL(event.target.files[0]);
+  };
+</script>
+<app-root></app-root>
+
+</body>
+</html>
